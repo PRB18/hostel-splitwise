@@ -40,3 +40,9 @@ Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/bui
 <!-- tiny cosmetic change: flavor tweak #2 -->
 
 <!-- tiny cosmetic change: flavor tweak #3 -->
+
+## Supabase integration (day 2)
+
+Today I connected Supabase to this Next.js app. I added a small client helper at `src/lib/supabaseClient.ts` which uses the environment variables `NEXT_PUBLIC_SUPABASE_URL` and `NEXT_PUBLIC_SUPABASE_ANON_KEY`.
+
+To test locally, install the Supabase JS client and add those variables to `.env.local` (for example with values from your Supabase project).
